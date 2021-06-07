@@ -1,0 +1,2 @@
+me/eduardo/androidApp/BuildConfig.java
+ me.eduardo.androidApp.BuildConfig
