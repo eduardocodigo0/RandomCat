@@ -8,6 +8,10 @@
         "source": "C:\\gitCoisas\\RandomCat\\androidApp\\src\\main\\res\\drawable\\roundbutton.xml"
     },
     {
+        "merged": "C:\\gitCoisas\\RandomCat\\androidApp\\build\\intermediates\\res\\merged\\debug\\raw_catnoise.mp3.flat",
+        "source": "C:\\gitCoisas\\RandomCat\\androidApp\\src\\main\\res\\raw\\catnoise.mp3"
+    },
+    {
         "merged": "C:\\gitCoisas\\RandomCat\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
         "source": "C:\\gitCoisas\\RandomCat\\androidApp\\src\\main\\res\\layout\\activity_main.xml"
     }

@@ -3,6 +3,7 @@ package me.eduardo.androidApp.ui
 import android.content.Context
 import android.content.Intent
 import android.graphics.Bitmap
+import android.media.MediaPlayer
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -15,6 +16,7 @@ import androidx.lifecycle.lifecycleScope
 import com.squareup.picasso.Picasso
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
+import me.eduardo.androidApp.R
 import me.eduardo.androidApp.databinding.ActivityMainBinding
 import java.io.ByteArrayOutputStream
 
@@ -26,8 +28,13 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var vm: MainViewModel
 
+    private var player: MediaPlayer? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        player = MediaPlayer.create(this, R.raw.catnoise)
+
         _binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         supportActionBar?.hide()
@@ -58,6 +65,9 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.btGetCat.setOnClickListener {
+
+            player?.start()
+
             binding.pbLoading.visibility = View.VISIBLE
             binding.ivCat.visibility = View.GONE
             binding.btShare.visibility = View.GONE

@@ -2124,6 +2124,7 @@ int layout text_view_with_line_height_from_style 0x7f0b005e
 int layout text_view_with_theme_line_height 0x7f0b005f
 int layout text_view_without_line_height 0x7f0b0060
 int plurals mtrl_badge_content_description 0x7f0c0000
+int raw catnoise 0x7f110000
 int string abc_action_bar_home_description 0x7f0d0000
 int string abc_action_bar_up_description 0x7f0d0001
 int string abc_action_menu_overflow_description 0x7f0d0002
@@ -2154,6 +2155,7 @@ int string abc_toolbar_collapse_description 0x7f0d001a
 int string appbar_scrolling_view_behavior 0x7f0d001b
 int string bottom_sheet_behavior 0x7f0d001c
 int string buttom_new_cat 0x7f0d001d
+int string buttom_share 0x7f0d0058
 int string character_counter_content_description 0x7f0d001e
 int string character_counter_overflowed_content_description 0x7f0d001f
 int string character_counter_pattern 0x7f0d0020

@@ -2125,6 +2125,7 @@ layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
 plurals mtrl_badge_content_description
+raw catnoise
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -2155,6 +2156,7 @@ string abc_toolbar_collapse_description
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
 string buttom_new_cat
+string buttom_share
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
