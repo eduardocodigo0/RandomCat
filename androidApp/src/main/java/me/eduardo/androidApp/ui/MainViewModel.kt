@@ -10,11 +10,10 @@ class MainViewModel(application: Application) : AndroidViewModel(application), L
 
     val baseVM = MainVMBase()
 
-
     @OnLifecycleEvent(Lifecycle.Event.ON_CREATE)
-    fun getCat(){
+    fun getCat() {
         viewModelScope.launch(Dispatchers.IO) {
-                baseVM.getCat()
+            baseVM.getCat()
         }
     }
 

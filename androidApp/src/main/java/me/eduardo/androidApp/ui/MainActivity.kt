@@ -80,14 +80,13 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-    private fun getImageURI(inContext: Context, inImage:Bitmap): Uri?{
-        
+    private fun getImageURI(inContext: Context, inImage: Bitmap): Uri? {
+
         val bytes = ByteArrayOutputStream()
         inImage.compress(Bitmap.CompressFormat.JPEG, 100, bytes)
-        val path = MediaStore.Images.Media.insertImage(inContext.contentResolver, inImage, "Cat", null)
+        val path =
+            MediaStore.Images.Media.insertImage(inContext.contentResolver, inImage, "Cat", null)
         return Uri.parse(path)
-
-
 
     }
 

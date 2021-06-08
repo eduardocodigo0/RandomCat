@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="buttom_new_cat">Get a new cat!</string>
+    <string name="buttom_share">Share</string>
 </resources>
