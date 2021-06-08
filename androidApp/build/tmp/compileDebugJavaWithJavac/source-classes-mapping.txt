@@ -1,2 +1,4 @@
 me/eduardo/androidApp/BuildConfig.java
  me.eduardo.androidApp.BuildConfig
+me/eduardo/androidApp/databinding/ActivityMainBinding.java
+ me.eduardo.androidApp.databinding.ActivityMainBinding

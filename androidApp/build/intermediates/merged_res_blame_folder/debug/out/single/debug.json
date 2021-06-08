@@ -1,5 +1,13 @@
 [
     {
+        "merged": "C:\\gitCoisas\\RandomCat\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_ic_share.xml.flat",
+        "source": "C:\\gitCoisas\\RandomCat\\androidApp\\src\\main\\res\\drawable\\ic_share.xml"
+    },
+    {
+        "merged": "C:\\gitCoisas\\RandomCat\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_roundbutton.xml.flat",
+        "source": "C:\\gitCoisas\\RandomCat\\androidApp\\src\\main\\res\\drawable\\roundbutton.xml"
+    },
+    {
         "merged": "C:\\gitCoisas\\RandomCat\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
         "source": "C:\\gitCoisas\\RandomCat\\androidApp\\src\\main\\res\\layout\\activity_main.xml"
     }

@@ -4,6 +4,8 @@ plugins {
     kotlin("multiplatform")
     id("com.android.library")
     id("kotlin-android-extensions")
+    id("kotlin-kapt")
+    id("kotlinx-serialization")
 }
 
 group = "me.eduardo"
